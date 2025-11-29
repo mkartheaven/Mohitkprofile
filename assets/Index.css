@@ -598,28 +598,25 @@ h6 {
         color: white;
     }
 
-.social-links {
-    display: flex;
-    gap: 1rem;
+.social-link-here{
+    display:flex;
+    gap:1rem;
+}
+.sociallinkicon{
+    font-size:40px;
 }
 
-.social-link {
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
+.social-link-a {
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-decoration: none;
     transition: all 0.3s ease;
 }
-
-    .social-link:hover {
-        background: var(--primary-color);
-        transform: translateY(-3px);
-    }
+.social-link-a:hover {
+    transform: translateY(-3px);
+}
 
 /* Scroll to Top */
 .scroll-top {

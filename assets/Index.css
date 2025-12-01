@@ -152,6 +152,9 @@ h6 {
     margin-bottom: 2rem;
     max-width: 600px;
 }
+    .hero-subtitle .hero-subtitle-bold {
+        color: #d3ddeb;
+    }
 
 .hero-stats {
     display: flex;

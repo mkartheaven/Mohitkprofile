@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\Images"
   ],
-  "SelectedNode": "\\robots.txt",
+  "SelectedNode": "\\assets\\Images\\mknobg.png",
   "PreviewInSolutionExplorer": false
 }

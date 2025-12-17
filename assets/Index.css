@@ -660,6 +660,9 @@ h6 {
     .hero-title {
         font-size: 2.5rem;
     }
+    .hero-section {
+        background: linear-gradient( to bottom, rgba(51, 65, 85, 1), rgba(51, 65, 85, 0.5) ), url("Images/Myworkhere991.jpg") center center / cover no-repeat;
+    }
 
     .hero-stats {
         gap: 1.5rem;
@@ -676,6 +679,7 @@ h6 {
 
 @media (max-width: 767px) {
     .hero-section {
+        background: linear-gradient( to bottom, rgba(51, 65, 85, 1), rgba(51, 65, 85, 0.5) ), url("Images/Myworkheremobile.jpg") center center / cover no-repeat;
         padding-top: 100px;
         text-align: center;
     }

@@ -684,6 +684,13 @@ h6 {
     .floating-card {
         display: none;
     }
+
+    .section-title {
+        font-size: 2rem;
+    }
+    .section-subtitle {
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -716,7 +723,10 @@ h6 {
     }
 
     .section-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+    }
+    .section-subtitle {
+        font-size: 1rem;
     }
 }
 @media (max-width: 467px) {
@@ -747,6 +757,13 @@ h6 {
        .hero-buttons .btn i {
                 margin-right: 4px; /* reduce icon spacing */
             }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .section-subtitle {
+        font-size: 0.75rem;
+    }
 }
     /* Animations */
     .fade-in {

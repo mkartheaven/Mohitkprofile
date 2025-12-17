@@ -660,6 +660,15 @@ h6 {
     .hero-title {
         font-size: 2.5rem;
     }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-stats {
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
     .hero-section {
         background: linear-gradient( to bottom, rgba(51, 65, 85, 1), rgba(51, 65, 85, 0.5) ), url("Images/Myworkhere991.jpg") center center / cover no-repeat;
     }
@@ -683,91 +692,106 @@ h6 {
         padding-top: 100px;
         text-align: center;
     }
-
+    .hero-title {
+        font-size: 2.25rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
     .hero-stats {
         justify-content: center;
-    }
-
-    .hero-subtitle {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .hero-buttons {
         justify-content: center;
     }
 
+    .stat-item h3 {
+        font-size: 2rem;
+    }
+
+    .stat-item p {
+        font-size: 0.675rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
 }
-
-/* Animations */
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-    /* Fade-in when visible */
-    .fade-in.visible {
-        opacity: 1;
-        transform: translateY(0);
+@media (max-width: 467px) {
+    .hero-subtitle {
+        font-size: 2rem;
     }
-
-
-/* Loader */
-.page-loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--dark-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    .hero-subtitle {
+        font-size: 0.75rem;
+    }
 }
-
-    .page-loader.hidden {
+    /* Animations */
+    .fade-in {
         opacity: 0;
-        visibility: hidden;
+        transform: translateY(20px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     }
 
-.loader-container {
-    position: relative;
-    width: 120px;
-    height: 120px;
-}
+        /* Fade-in when visible */
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
-.loader-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100px;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-}
 
-.loader-spinner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120px;
-    height: 120px;
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-top-color: var(--primary-color);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    z-index: 1;
-}
-
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
+    /* Loader */
+    .page-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--dark-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
     }
-}
+
+        .page-loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+    .loader-container {
+        position: relative;
+        width: 120px;
+        height: 120px;
+    }
+
+    .loader-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .loader-spinner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: 120px;
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        border-top-color: var(--primary-color);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        z-index: 1;
+    }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
 
 

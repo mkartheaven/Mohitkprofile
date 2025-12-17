@@ -706,9 +706,6 @@ h6 {
         justify-content: center;
     }
 
-    .hero-buttons {
-        justify-content: center;
-    }
 
     .stat-item h3 {
         font-size: 2rem;
@@ -736,6 +733,10 @@ h6 {
     }
     .hero-subtitle {
         font-size: 0.75rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
     }
 }
     /* Animations */

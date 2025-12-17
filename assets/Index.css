@@ -724,7 +724,12 @@ h6 {
 }
 @media (max-width: 467px) {
     .navbar-brand-logo {
-        width: 40px;
+        width: 80px;
+    }
+
+    .hero-section {
+        min-height:85vh;
+        padding-top: 40px;
     }
     .hero-title{
         font-size:2rem;

@@ -736,7 +736,7 @@ h6 {
     }
 
     .hero-buttons {
-        justify-content: center;
+       margin-top: 40px;
     }
 }
     /* Animations */

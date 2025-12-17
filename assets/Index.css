@@ -724,7 +724,7 @@ h6 {
 }
 @media (max-width: 467px) {
     .navbar-brand-logo {
-        width: 90px;
+        width: 40px;
     }
     .hero-title{
         font-size:2rem;

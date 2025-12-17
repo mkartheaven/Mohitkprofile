@@ -739,13 +739,13 @@ h6 {
        margin-top: 40px;
     }
     .hero-buttons .btn {
-            padding: 6px 12px; /* reduce height & width */
+            padding: 4px 10px; /* reduce height & width */
             font-size: 14px; /* smaller text */
             line-height: 1.2;
         }
 
        .hero-buttons .btn i {
-                margin-right: 6px; /* reduce icon spacing */
+                margin-right: 4px; /* reduce icon spacing */
             }
 }
     /* Animations */

@@ -687,6 +687,10 @@ h6 {
 }
 
 @media (max-width: 767px) {
+
+    .navbar-brand-logo {
+        width: 100px;
+    }
     .hero-section {
         background: linear-gradient( to bottom, rgba(51, 65, 85, 1), rgba(51, 65, 85, 0.5) ), url("Images/Myworkheremobile.jpg") center center / cover no-repeat;
         padding-top: 100px;
@@ -719,8 +723,11 @@ h6 {
     }
 }
 @media (max-width: 467px) {
-    .hero-subtitle {
-        font-size: 2rem;
+    .navbar-brand-logo {
+        width: 90px;
+    }
+    .hero-title{
+        font-size:2rem;
     }
     .hero-subtitle {
         font-size: 0.75rem;

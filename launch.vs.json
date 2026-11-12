@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "configurations": [
+    {
+      "type": "default",
+      "name": "Mohit Profile",
+      "project": "index.html",
+      "projectTarget": "",
+      "launchUrl": "index.html"
+    }
+  ]
+}
